@@ -31,12 +31,32 @@
     </form>
   </div>
 
+  <div style="
+  position:fixed;top:-100px;left:-100px;width:600px;height:600px;
+  z-index:-1;pointer-events:none;
+  background: radial-gradient(circle, #fceabb 0%, #fba4b4 60%, #fff0 100%);
+  filter: blur(90px); opacity: 0.7;">
+</div>
+<div style="
+  position:fixed;bottom:-120px;right:-100px;width:400px;height:400px;
+  z-index:-1;pointer-events:none;
+  background: radial-gradient(circle, #a1f1e9 0%, #98b8fa 70%, #fff0 100%);
+  filter: blur(80px); opacity: 0.5;">
+</div>
+
+
 <style>
 body {
-  background: linear-gradient(135deg, #e9f7fa 0%, #dbeafe 100%);
   min-height: 100vh;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  background: radial-gradient(ellipse at top left, #95bbe2 0%, #e7c3fa 40%, #fff0 70%), 
+              radial-gradient(ellipse at bottom right, #fff0 40%, #9de0fc 90%);
+  background-color: #f4f8fb;
+  background-blend-mode: lighten;
+  position: relative;
+  overflow-x: hidden;
 }
+
 
 .container {
   max-width: 500px;
